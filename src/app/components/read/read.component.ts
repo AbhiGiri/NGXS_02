@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Tutorial } from 'src/app/models/tutorial.model';
+import { Tutorial } from '../../models/tutorial.model';
 import { Store, Select } from '@ngxs/store';
-import { RemoveTutorial } from 'src/app/actions/tutorial.action';
-import { TutorialState } from 'src/app/state/tutorial.state';
+import { RemoveTutorial } from '../../actions/tutorial.action';
+import { TutorialState } from '../../state/tutorial.state';
 
 @Component({
   selector: 'app-read',
