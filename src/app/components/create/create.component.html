@@ -1,0 +1,8 @@
+<div class="left">
+  <h2>Add Tutorials</h2>
+  <label>Name</label>
+  <input type="text" placeholder="HTML5" #name>
+  <label>Url</label>
+  <input type="text" placeholder="https://www.w3schools.com/html" #url>
+  <button (click)="addTutorial(name.value, url.value)">Add a tutorial</button>
+</div>
